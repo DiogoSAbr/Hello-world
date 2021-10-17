@@ -1,4 +1,4 @@
-let x = 9;
+/*let x = 9;
 console.log("O valor de x é " + x);
 console.log("O tipo de x é " + typeof x);
 
@@ -21,7 +21,7 @@ console.log("O tipo de w é " + typeof w);
 let p= (w*y+(a+z)/w)*2;
 console.log("O valor de p é " + p);
 console.log("O tipo de p é " + typeof p);
-
+*/
 /*
 console.log("Hello World");
 console.log("Diogo teste");
@@ -45,6 +45,7 @@ e=e+10
 console.log(e);
 */
 //array
+/*
 let Teste = [1,2,3,"Sim",false]
 
 console.log("O valor de Teste é " + Teste);
@@ -64,3 +65,48 @@ let nome = "Diogo"
 nome.length
 console.log(nome.length);
 console.log(nome[3]);
+*/
+//object
+let h = {
+    x: 1,
+    d: "Teste",
+    l: false,
+    a: [1, 2, 3, 4],
+    o: {
+        x: 10
+    }
+}
+
+console.log(h);
+console.log("O tipo de h é " + typeof h);
+
+console.log("O valor de h.x é " + h.x);
+console.log("O tipo de h.x é " + typeof h.x);
+
+let pessoa = {
+    nome:"Diogo",
+    endereço:{
+        rua:'Rua Teste',
+        numero:482
+    },
+    profissão:"Programador",
+    Idade:15,
+    casado:false,
+    Animais_de_estimação:[
+        {
+           especie:'cachorro',
+           nome:'Sett'
+        },
+        {
+            especie:'cachorro',
+            nome:'Fred'
+        },
+        {
+            especie:'gato',
+            nome:'Malu'
+        }
+    ]
+}
+console.log(pessoa);
+console.log(pessoa.Animais_de_estimação[1].nome);
+
